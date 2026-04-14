@@ -1,4 +1,4 @@
-cat > src/script.js << 'EOF'
+
 // Simula uma chamada de API para buscar dados do Banco de Dados
 // Em uma aplicação real, este fetch apontaria para um servidor backend
 
@@ -23,4 +23,4 @@ fetch('db.json')
         document.getElementById('db-status').innerText = '❌ Erro ao conectar no banco.';
         console.error('Erro:', err);
     });
-EOF
+
